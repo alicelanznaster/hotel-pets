@@ -42,7 +42,7 @@ onMounted(carregarDados);
 
     <table class="table table-striped table-hover">
       <thead>
-        <th>id</th>
+        <th>ID</th>
         <th>Nome</th>
         <th>Telefone</th>
       </thead>
