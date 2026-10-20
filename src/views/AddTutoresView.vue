@@ -4,7 +4,6 @@ import { useRouter } from 'vue-router';
 
 const router = useRouter(); //chamando meu router
 const API_URL = 'http://localhost:3000'; //chamando minha API
-
 const novoTutor = ref({
   nome: '',
   telefone: '',
@@ -78,7 +77,8 @@ async function salvarTutor() {
             class="form-control"
             id="telefone"
             v-model="novoTutor.telefone"
-            required>
+            required
+            placeholder="(99) 99999-9999">
         </label>
       </div>
       <h3>Endereço</h3>
@@ -86,7 +86,7 @@ async function salvarTutor() {
         <label for="cep" class="form-label">
           CEP
           <input 
-          type="cep"
+          type="text"
           class="form-control"
           id="cep"
           v-model="novoTutor.endereco.cep"

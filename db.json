@@ -23,6 +23,24 @@
       "especie": "Cachorro",
       "tutorId": "1",
       "id": "X0ljpxyy9B8"
+    },
+    {
+      "nome": "kiara",
+      "especie": "Cachorro",
+      "tutorId": "1",
+      "id": "U4do6sktcdQ"
+    },
+    {
+      "nome": "zeus",
+      "especie": "Cachorro",
+      "tutorId": "2",
+      "id": "fUUgGKSGALU"
+    },
+    {
+      "nome": "robson",
+      "especie": "Tartaruga",
+      "tutorId": "2",
+      "id": "ZBSWwuAeu5A"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
